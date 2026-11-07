@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!made by me ofc ehehe>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -158,6 +158,10 @@
     <section class="photos" aria-label="Birthday photos">
       <img src="photo1.jpg" alt="Birthday memory one" />
       <img src="photo2.jpg" alt="Birthday memory two" />
+      <section class="photos" aria-label="Birthday photos">
+  <img src="photo1.jpg" alt="Birthday memory one" />
+  <img src="photo2.jpg" alt="Birthday memory two" />
+</section>
     </section>
 
     <section class="letter-card">
@@ -193,7 +197,10 @@ I may not remember many things, but i still remember dat ur turning 19 today. I 
       star.style.opacity = 0.4 + Math.random() * 0.6;
       star.style.animationDuration = (7 + Math.random() * 9) + "s";
       document.body.appendChild(star);
+![First Image](https://githubusercontent.com)
 
+![Second Image](https://githubusercontent.com)
+                
       setTimeout(() => star.remove(), 17000);
     }
 

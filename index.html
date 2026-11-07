@@ -16,7 +16,6 @@
       font-family: Georgia, "Times New Roman", serif;
     }
 
-    /* Soft, moving fog */
     .fog {
       position: fixed;
       inset: -40%;
@@ -41,7 +40,6 @@
       to   { transform: translate(6%, 4%) scale(1.15); }
     }
 
-    /* Falling stars */
     .star {
       position: fixed;
       top: -30px;
@@ -162,25 +160,27 @@
 
     <section class="letter-card">
       <label for="letter"><strong>Your letter 💌</strong></label>
-      <textarea id="letter" placeholder="Happy birfday my lord Dlovan! May Allah bless ya and keep u always happy and healthy all da time and grant u success in every single thing, like EVERY SINGLE THING. AMEEN ^^\nI hope ur doing well, and i hope ur alr. U finally turned 19 🥹\nI can't be any proud more than how im rn, u grew up 😭\nI may not remember many things, but i still remember dat ur turning 19 today. I love u so much my lord ^^"></textarea>
+      <textarea id="letter">Happy birfday mlady Dlovan! May Allah bless ya and keep u always happy and healthy all da time and grant u success in every single thing, like EVERY SINGLE THING. AMEEN ^^
+I hope ur doing well, and i hope ur alr. U finally turned 19 🥹
+I can't be any proud more than how im rn, u grew up 😭
+I may not remember many things, but i still remember dat ur turning 19 today. I love u so much mlady ^^</textarea>
       <button type="button" id="saveButton">Save letter on this device</button>
       <span id="status" aria-live="polite"></span>
     </section>
   </main>
 
   <script>
-    // Keeps the letter in this browser on this device.
     const letter = document.getElementById("letter");
     const status = document.getElementById("status");
+    const savedLetterKey = "birthdayLetterMlady";
 
-    letter.value = localStorage.getItem("birthdayLetter") || "";
+    letter.value = localStorage.getItem(savedLetterKey) || letter.value;
 
     document.getElementById("saveButton").addEventListener("click", () => {
-      localStorage.setItem("birthdayLetter", letter.value);
+      localStorage.setItem(savedLetterKey, letter.value);
       status.textContent = "Saved on this device!";
     });
 
-    // Creates the falling star/snow effect.
     function makeStar() {
       const star = document.createElement("span");
       star.className = "star";

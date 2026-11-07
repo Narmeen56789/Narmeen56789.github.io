@@ -159,6 +159,12 @@
       <img src="photo1.jpg" alt="Birthday memory one" />
       <img src="photo2.jpg" alt="Birthday memory two" />
     </section>
+    <!-- First Image -->
+<img src="https://ibb.co" alt="Man in black shirt with bow" />
+
+<!-- Second Image -->
+<img src="https://ibb.co" alt="Man taking mirror selfie with bow" />
+
 
     <section class="letter-card">
       <label for="letter"><strong>Your letter 💌</strong></label>

@@ -171,7 +171,8 @@ I may not remember many things, but i still remember dat ur turning 19 today. I 
       <button type="button" id="saveButton">Save letter on this device</button>
       <span id="status" aria-live="polite"></span>
     </section>
-  </main>
+  </main><img src="https://github.com/user-attachments/assets/86f1b644-9e77-474e-91dc-25fe2337a3be" alt="Birthday memory one" />
+<img src="https://github.com/user-attachments/assets/53e0cb64-b4ee-43db-a625-f3e55a28245c" alt="Birthday memory two" />
 
   <script>
     // Keeps the letter in this browser on this device.
@@ -203,3 +204,5 @@ I may not remember many things, but i still remember dat ur turning 19 today. I 
   </script>
 </body>
 </html>
+
+<img width="347" height="603" alt="Screenshot 2026-11-07 234240" src="https://github.com/user-attachments/assets/86f1b644-9e77-474e-91dc-25fe2337a3be" /><img width="296" height="395" alt="Screenshot 2026-11-07 234249" src="https://github.com/user-attachments/assets/53e0cb64-b4ee-43db-a625-f3e55a28245c" />
